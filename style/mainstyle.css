@@ -1,0 +1,49 @@
+body {
+    max-width: 100%;
+    width: 100%;
+    background-color: #353535;
+    font-family: Arial;
+}
+
+.centered {
+    display: block;
+    position: absolute;
+}
+
+#logo {
+    top: 36%;
+    left: 32%;
+}
+
+#circle {
+    top: 6.8%;
+    left: 27.8%;
+    animation: rotate 12s linear 0s infinite;
+}
+
+#day {
+    display: block;
+    position: absolute;
+    width: 12%;
+    top: 58%;
+    left: 44.33%;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#hour {
+    display: block;
+    position: absolute;
+    width: 12%;
+    top: 63%;
+    left: 44.33%;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
