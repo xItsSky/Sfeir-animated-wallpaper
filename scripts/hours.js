@@ -20,6 +20,6 @@ function showDate() {
     if( seconds < 10 ){ seconds = '0' + seconds; }
 
     //display date
-    $('#day').text(days[day]);
+    $('#day').text(days[day - 1]);
     $('#hour').text(hours + ':' + minutes + ':' + seconds);
 }
